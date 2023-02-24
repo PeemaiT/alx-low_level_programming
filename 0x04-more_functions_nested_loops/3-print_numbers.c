@@ -1,31 +1,16 @@
 #include "main.h"
-#include <unistd.h>
-
 /**
-
- * print_numbers - checks for checks for a digit (0 through 9).
-
- *
-
- * Return: Always 0.
-
+ * print_numbers -print the numbers since 0 to 9
+ * return: the numbers since 0 up to 9
  */
 
-void print_numbers(1)
-
+void print_numbers(void)
 {
+	int x;
 
-int c;
-
-
-for (c = 48; c < 58; c++);
-
-{
-
-_putchar(c);
-
+	for (x = 0; x <= 9; x++)
+	{
+		_putchar(x + '0');
+	}
+	_putchar('\n');
 }
-
-_putchar('\n');
-
- }
