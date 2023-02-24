@@ -7,7 +7,7 @@
  * return: nothing
  */
 
-void print_number(int n)
+void print_numbers(int n)
 
 {
 	unsigned int k = n;
